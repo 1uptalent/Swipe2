@@ -465,6 +465,7 @@ Swipe.prototype = {
             }
 
             clearInterval(timer);
+            _this.begin();
 
             return;
 
